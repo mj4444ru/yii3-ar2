@@ -1,0 +1,13 @@
+{
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "yiisoft/validator": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "YiiSoft\\ActiveRecord2\\": "src",
+            "Test\\": "test"
+        }
+    }
+}
